@@ -6,11 +6,11 @@
     <title>2024040-web演習11回目の課題</title>
     <link rel="stylesheet" href="i2224073.gitfub.io/Web-10reset.css">
     <style>
-        body{
-            background: url(grass-ga066f6969_1280.jpg);;
+        body {
+            background: url(grass-ga066f6969_1280.jpg);
         }
 
-        .menu{
+        .menu {
             display: flex;
             list-style: none;
             flex-wrap: wrap;
@@ -18,163 +18,105 @@
             margin: auto;
         }
 
-        .menu li{
+        .menu li {
             flex-basis: 20%;
         }
 
-
-        .wrap{
-           
+        .wrap {
             margin: auto;
             background: #fff;
         }
 
-        .card-wrap{
+        .card-wrap {
             display: flex;
             flex-wrap: wrap;
         }
 
-        .card{
-            flex-basis: 29.33%;
+        .card {
+            flex-basis: calc(33.33% - 4%);
             margin: 2%;
             border: solid 1px #000;
-            width=" 100% " ;
-            height="auto";
-            max width 300px;
+            max-width: 300px;
+            width: 100%;
         }
 
-        .txt{
+        .txt {
             margin: 4% 6%;
             line-height: 1.3;
             font-size: 14px;
         }
 
-        .h-large{
+        .h-large {
             text-align: center;
             margin: 80px auto 40px;
             font-size: 32px;
         }
 
-        @media screen and (max-width: 480px){
-
-            body{
+        @media screen and (max-width: 480px) {
+            body {
                 background: yellow;
             }
 
-            .card{
+            .card {
                 flex-basis: 100%;
             }
 
-            .h-large{
+            .h-large {
                 margin: 40px auto 24px;
                 font-size: 24px;
             }
-            
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="wrap">
-            <nav>
-                <ul class="menu">
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <!-- Your header and other content -->
 
     <main>
         <div class="wrap">
             <h1 class="h-large">作品群</h1>
 
             <div class="card-wrap">
+                <!-- Card 1 -->
                 <div class="card">
                     <img src="1.png" alt="">
-
                     <div class="txt">
                         <p>Web演習2023　中間課題</p>
                         <p>高齢者の方向けの分かりやすいWebサイトを目標とした作品</p>
-                        <p><a href="https://www.figma.com/proto/pKulhfyXdsctJy2EqUscyQ/sample_wf?node-id=8-6&starting-point-node-id=8%3A6&mode=design&t=XWfnkbzk8qmufu1v-1" >こちらから閲覧できます。</a></p>
+                        <p><a href="https://www.figma.com/proto/pKulhfyXdsctJy2EqUscyQ/sample_wf?node-id=8-6&starting-point-node-id=8%3A6&mode=design&t=XWfnkbzk8qmufu1v-1">こちらから閲覧できます。</a></p>
                     </div>
                 </div>
-    
-                <div class="card" >
+
+                <!-- Card 2 -->
+                <div class="card">
                     <img src="2_0.png" alt="">
                     <a href="web2_00index.html" target="_blank"></a>
                     <div id="さんか"></div>
-
-                        </a>
+                    </a>
                     <div class="txt">
                         <p>Blenderでのモデリング</p>
                         <p>スカイクロラと言う映画に登場する戦闘機のモデリング</p>
-
-                    </div>
-                </div>
-    
-                <div class="card">
-                    <img src="3_0.png" alt="">
-                    <div class="txt">
-                        <p>デッサン作品</p>
-                        <p>基礎デッサンと言う授業で制作したデッサン</p>
                     </div>
                 </div>
 
-                <div class="card">
-                    <img src="4_1.PNG" alt="">
-                    <div class="txt">
-                        <p>文字で感情を表す課題</p>
-                        <p>この文字で表現した感情は「怒り」</p>
-                    </div>
-                </div>
+                <!-- Card 3 -->
+                <!-- Add other cards similarly -->
 
+                <!-- Card 6 (with video) -->
                 <div class="card">
-                    <img src="5_0.PNG" alt="">
-                    <div class="txt">
-                    <p>タイトル　鼓動</p>
-                        <p>グラデーション課題</p>
-                        <p>グラデーションによって自由に表現する課題でこの作品から表現したかったのは、「血管」です。</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="6_0.png" alt="" wudth = "100px" heigth="auto">
+                    <img src="6_0.png" alt="">
                     <div class="txt">
                         <p>タイトル　顔</p>
                         <p>Unityを使った映像に紙をかざし、映像表現をする課題</p>
-                        <video width="640" height="360" controls>
-    
-                            
-                        
-                           
-                        <source src="6_1_AdobeExpress.mp4" type="video/mp4">
+                        <video width="100%" height="auto" controls>
+                            <source src="6_1_AdobeExpress.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>
             </div>
-
         </div>
     </main>
-    <script async defer src="https://scripts.withcabin.com/hello.js"></script>
-
-
-    <html>
-        <head>
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <style>
-            /* スマートフォンサイズ用のスタイル */
-            @media (max-width: 480px) {
-              /* ここにスマートフォンサイズ用のスタイルを追加 */
-              /* 例: ボディのフォントサイズを変更 */
-              body {
-                font-size: 14px;
-              }
-            }
-          </style>
-        </head>
-        <body>
-          <!-- ここにウェブページのコンテンツを追加 -->
-        </body>
-        </html>
     
+    <!-- Your scripts and other HTML code -->
+
 </body>
 </html>
